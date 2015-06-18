@@ -52,9 +52,6 @@ public class Core extends Script implements MessageListener, Paintable {
                 Time.sleep(1000);
             }
         }
-        if (m.getMessage().contains("Asd")) {
-            System.out.println(Players.getMyPlayer().getLocation().toString());
-        }
     }
 
     /**
