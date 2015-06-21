@@ -56,7 +56,6 @@ public class Gui extends JFrame {
                         break;
                 }
                 setVisible(false);
-                System.out.println(Arrays.toString(Npcs.getNpcs()));
             }
         });
         btnStartScript.setBounds(155, 233, 113, 29);
