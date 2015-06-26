@@ -1,4 +1,4 @@
-package myscripts.com.ikov.cAgility.strategies;
+package myscripts.com.ikov.cagility.strategies;
 
 import org.parabot.environment.api.utils.Time;
 import org.parabot.environment.input.Keyboard;

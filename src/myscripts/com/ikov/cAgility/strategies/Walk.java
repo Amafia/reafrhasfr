@@ -1,7 +1,7 @@
-package myscripts.com.ikov.cAgility.strategies;
+package myscripts.com.ikov.cagility.strategies;
 
-import myscripts.com.ikov.cAgility.Core;
-import myscripts.com.ikov.cAgility.data.Variables;
+import myscripts.com.ikov.cagility.Core;
+import myscripts.com.ikov.cagility.data.Variables;
 import org.parabot.environment.api.utils.Time;
 import org.parabot.environment.scripts.framework.SleepCondition;
 import org.parabot.environment.scripts.framework.Strategy;

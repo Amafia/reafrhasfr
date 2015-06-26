@@ -1,4 +1,4 @@
-package myscripts.com.ikov.cAgility.data;
+package myscripts.com.ikov.cagility.data;
 
 /**
  * Created by Capslock

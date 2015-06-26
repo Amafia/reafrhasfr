@@ -1,7 +1,7 @@
-package myscripts.com.ikov.cAgility;
+package myscripts.com.ikov.cagility;
 
-import myscripts.com.ikov.cAgility.data.Variables;
-import myscripts.com.ikov.cAgility.strategies.*;
+import myscripts.com.ikov.cagility.data.Variables;
+import myscripts.com.ikov.cagility.strategies.*;
 import org.parabot.environment.api.utils.Time;
 import org.parabot.environment.scripts.Category;
 import org.parabot.environment.scripts.Script;
@@ -32,6 +32,7 @@ public class Core extends Script implements MessageListener {
     @Override
     public boolean onExecute() {
         Gui gui = new Gui();
+        gui.setVisible(true);
         while (gui.isVisible()) {
             sleep(20);
         }

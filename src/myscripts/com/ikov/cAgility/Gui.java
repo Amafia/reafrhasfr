@@ -1,6 +1,6 @@
-package myscripts.com.ikov.cAgility;
+package myscripts.com.ikov.cagility;
 
-import myscripts.com.ikov.cAgility.data.Variables;
+import myscripts.com.ikov.cagility.data.Variables;
 import org.rev317.min.api.methods.Npcs;
 
 import javax.swing.*;
@@ -56,6 +56,7 @@ public class Gui extends JFrame {
                         break;
                 }
                 setVisible(false);
+                System.out.println(Arrays.toString(Npcs.getNpcs()));
             }
         });
         btnStartScript.setBounds(155, 233, 113, 29);
